@@ -2,6 +2,9 @@ package academy.devdojo.maratonajava.introducao;
 
 public class Aula04Operadores {
     public static void main(String[] args) {
+
+
+// Operadores Aritimeticos
         /*
 
          + => Adição,
@@ -44,7 +47,7 @@ public class Aula04Operadores {
         double resultado3 = numero07 / numero08;
         System.out.println(resultado3);
 
-// Outros Operadores
+// Operadores Relacionais
 
         // % - Resto da divisão
 
@@ -74,5 +77,59 @@ public class Aula04Operadores {
         System.out.println("isDezIgualDez " + isDezIgualDez);
         System.out.println("isDezDiferenteDez " + isDezDiferenteDez);
 
+
+// Operadores Logicos
+
+        /*
+            && - And
+            || - Or
+            !  - Negação
+         */
+
+        int idade = 35;
+        float salario = 3500F;
+        boolean isDentroDaLeiMaiorQueTrinta = idade > 30 && salario >= 4612;
+        boolean isDentroDaLeiMenorQueTrinta = idade < 30 && salario >= 3381;
+
+        System.out.println("isDentroDaLeiMaiorQueTrinta " + isDentroDaLeiMaiorQueTrinta);
+        System.out.println("isDentroDaLeiMaiorQueTrinta " + isDentroDaLeiMenorQueTrinta);
+
+
+        double valorContaCorrente = 200;
+        double valorContaPoupanca = 10000;
+        float valorPlaystation = 5000;
+        boolean isPlastationCompravel = valorContaCorrente > valorPlaystation || valorContaPoupanca > valorPlaystation;
+        System.out.println("isPlastationCompravel " + isPlastationCompravel);
+
+// Operadores de Atribuição
+
+        /*
+            =
+            +=
+            -=
+            *=
+            /=
+            %=
+         */
+
+        double bonus = 1800;
+        bonus += 1000; // é a mesma coisa que bonus = bonus + 1000 e isso funciona para os outros tambem.
+        System.out.println(bonus);
+
+
+        /*
+            ++
+            --
+         */
+
+
+        int contador = 0;
+        contador += 1; // contador = contador + 1;
+        contador ++; // é igual contador += 1
+        contador --;
+        ++contador; // colocar antes ele executa a incrementaçao antes
+        --contador;
+        int contador2 = 0;
+        System.out.println(contador2++); //retornou 0 pois ele incrementou depois de printar o contador
     }
 }
