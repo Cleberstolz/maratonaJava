@@ -4,7 +4,7 @@ public class Aula04Operadores {
     public static void main(String[] args) {
 
 
-// Operadores Aritimeticos
+// Operadores Aritiméticos
         /*
 
          + => Adição,
@@ -16,7 +16,7 @@ public class Aula04Operadores {
 
 /*
   Dessa forma se utilizarmos o operador + dentro do sout o que vier antes de uma string
-  ele vai contar como Soma e depois de uma string ele vai contar como concatenação.
+  vai contar como SOMA e depois de uma string ele vai contar como concatenação.
  */
 
         int numero01 = 10;
@@ -24,7 +24,7 @@ public class Aula04Operadores {
         System.out.println(numero01 + numero02 + " Valor " + numero02 + numero01);
 
 /*
-  Outra forma de somar criar uma nova variavel.
+  Outra forma de somar é criar uma nova variável.
  */
 
         int numero03 = 10;
@@ -33,8 +33,8 @@ public class Aula04Operadores {
         System.out.println(resultado);
 
 /*
-  Na divisao temos que tomar cuidado pois se voce declarar como numero inteiro ele vai retornar um numero inteiro
-  se voce declarar com double ou float ele retorna numeros com ponto flutuante exemplos:
+  Na divisão temos que tomar cuidado pois se voce declarar como número inteiro ele vai retornar um número inteiro,
+  se voce declarar com double ou float ele retorna números com ponto flutuante. Exemplos:
  */
 
         int numero05 = 10;
@@ -113,7 +113,7 @@ public class Aula04Operadores {
          */
 
         double bonus = 1800;
-        bonus += 1000; // é a mesma coisa que bonus = bonus + 1000 e isso funciona para os outros tambem.
+        bonus += 1000; // é a mesma coisa que: bonus = bonus + 1000 e isso funciona para os outros também.
         System.out.println(bonus);
 
 

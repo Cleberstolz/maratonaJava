@@ -2,7 +2,9 @@ package academy.devdojo.maratonajava.introducao;
 
 public class Aula02TiposPrimitivos {
     public static void main(String[] args) {
+
         // int, double, float, char, byte, short, long, boolean
+
         int idade = 10;
         double salarioDouble = 2000.8;
         float salarioFloat = 2500.0F;
@@ -18,7 +20,7 @@ public class Aula02TiposPrimitivos {
         System.out.println(falso);
         System.out.println("char" + caractereAscii);
         System.out.println("char" + caractereUnicode);
-        //para fazer o System out ... mais rapido é sout
+        //para fazer o System out ... mais rápido é sout
         System.out.println(nome);
     }
 }

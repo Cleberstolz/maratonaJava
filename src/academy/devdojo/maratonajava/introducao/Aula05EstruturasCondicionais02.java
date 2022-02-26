@@ -3,7 +3,7 @@ package academy.devdojo.maratonajava.introducao;
 public class Aula05EstruturasCondicionais02 {
     public static void main(String[] args) {
         /*
-            Quando tiver mais que 2 condiçoes ai voce pode usar o ELSE IF (senao se) EX:
+            Quando tiver mais que 2 condições ai voce pode usar o ELSE IF (senão se) EX:
          */
 
         // idade < 15 categoria infantil

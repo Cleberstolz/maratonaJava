@@ -4,7 +4,7 @@ public class Aula05EstruturasCondicionais01 {
     public static void main(String[] args) {
 
         /*
-            basicamente os ifs sao se algo for verdade execute isso se for falso execute aquilo
+            Basicamente os ifs sao "se" algo for verdade execute isso se for falso execute aquilo
          */
 
         int idade = 19;
@@ -20,7 +20,7 @@ public class Aula05EstruturasCondicionais01 {
         }
 
         /*
-            O else é o senão e voce usa juntamente com o if, exemplo SE eu tiver dinheiro eu compro SENAO eu nao compro.
+            O else é o "senão" e voce usa juntamente com o if, exemplo SE eu tiver dinheiro eu compro SENÃO eu nao compro.
          */
 
         double minhaCarteira = 3000.00;

@@ -1,7 +1,7 @@
 package academy.devdojo.maratonajava.introducao;
 
 /**
- *  Isso é um comentario
+ *  Isso é um comentário
  *  <b>Javadoc</b>
  */
 public class Aula01OlaDevDojo {
